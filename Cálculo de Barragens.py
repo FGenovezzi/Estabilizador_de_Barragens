@@ -3,7 +3,7 @@ from tkinter import *
 bar = Tk()
 bar.title('Estabilidade')
 
-img = PhotoImage(file="C:/Users/User/Desktop/BARRAGEM/bar1.png")
+img = PhotoImage(file="./bar1.png")
 
 i = Label(bar,image=img)
 i.img=img
@@ -64,7 +64,7 @@ def calculo():
     nj = Toplevel()
     nj.title('Resultado')
     
-    foto = PhotoImage(file="C:/Users/User/Desktop/BARRAGEM/bar2.png")
+    foto = PhotoImage(file="./bar2.png")
     f = Label(nj,image=foto)
     f.foto=foto
     f.grid(row=0,columnspan=5)
